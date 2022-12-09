@@ -13,6 +13,8 @@
             //calling Multiply function
             Multiplication.Multiply();
 
+            //calling division function
+            Division.Divide();
 
         }
     }

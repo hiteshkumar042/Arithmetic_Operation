@@ -18,7 +18,7 @@ namespace Arithmetic_Operations
             secondNumber = Convert.ToInt32(Console.ReadLine());
 
             int result = firstNumber + secondNumber;
-            Console.WriteLine("Sum of {0} & {1} is : {2}", firstNumber,secondNumber,result);
+            Console.WriteLine("Addition of {0} & {1} is : {2}", firstNumber,secondNumber,result);
         }
     }
 }

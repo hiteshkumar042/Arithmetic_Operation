@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Arithmetic_Operations
 {
-    class Multiplication
+    class Division
     {
-        public static void Multiply()
+        public static void Divide()
         {
             int firstNumber = 0, secondNumber = 0;
 
@@ -17,9 +17,8 @@ namespace Arithmetic_Operations
             Console.WriteLine("Enter 2nd Value : ");
             secondNumber = Convert.ToInt32(Console.ReadLine());
 
-            int result = firstNumber + secondNumber;
-            Console.WriteLine("Multplication of {0} & {1} is : {2}", firstNumber, secondNumber, result);
+            int result = firstNumber/secondNumber;
+            Console.WriteLine("Division of {0} & {1} is : {2}", firstNumber, secondNumber, result);
         }
-
     }
 }
