@@ -10,6 +10,9 @@
             //Calling DiffTwoNumbers function
             Substraction.DiffTwoNumbers();
 
+            //calling Multiply function
+            Multiplication.Multiply();
+
 
         }
     }
