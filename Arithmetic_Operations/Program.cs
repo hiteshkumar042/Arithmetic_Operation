@@ -4,7 +4,13 @@
     {
         static void Main(string[] args)
         {
+            //Callinf AddTwoNumbers function
             Addition.AddTwoNumbers();
+            
+            //Calling DiffTwoNumbers function
+            Substraction.DiffTwoNumbers();
+
+
         }
     }
 }
