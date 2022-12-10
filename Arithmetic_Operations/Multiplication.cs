@@ -17,7 +17,7 @@ namespace Arithmetic_Operations
             Console.WriteLine("Enter 2nd Value : ");
             secondNumber = Convert.ToInt32(Console.ReadLine());
 
-            int result = firstNumber + secondNumber;
+            int result = firstNumber * secondNumber;
             Console.WriteLine("Multplication of {0} & {1} is : {2}", firstNumber, secondNumber, result);
         }
 
