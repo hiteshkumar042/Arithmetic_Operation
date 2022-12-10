@@ -10,7 +10,7 @@ namespace Arithmetic_Operations
     {
         public static void Divide()
         {
-            int firstNumber = 0, secondNumber = 0;
+            float firstNumber = 0, secondNumber = 0;
 
             Console.WriteLine("Enter 1st Value : ");
             firstNumber = Convert.ToInt32(Console.ReadLine());
